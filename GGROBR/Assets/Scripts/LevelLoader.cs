@@ -3,30 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// public class LevelLoader : MonoBehaviour
+public class LevelLoader : MonoBehaviour
+{
+    public Animator CircleZoomMain;
+    public float transitionTime = 1f;
+    public int NextScene;
 
-    // public Animator transition;
-    // public float transtionTime = 1f;
+    public void LoadNextLevel()
+    {
+        StartCoroutine((string)Loadlevel(NextScene));        
+    }
 
-    // Update is called once per frame
-    // void Update()
-    
-        // if(gameObject<"Start Button">)
-        
-            //LoadNextLevel();
-        
-    
+    IEnumerable Loadlevel(int SceneIndex)
+    {
+        CircleZoomMain.SetTrigger("start"); //play animation
 
-    // public void LoadNextLevel()
-    
-       //  StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
-    
+        yield return new WaitForSeconds(transitionTime); //wait
 
-    // IEnumerator LoadLevel(int LevelIndex)
-    
-        //transition.SetTrigger("1_CircleZoom");
-
-        // yield return new WaitForSeconds(transitionTime);
-
-        // SceneManager.LoadScene(LevelIndex)
-   
+        SceneManager.LoadScene(SceneIndex); //load scene
+    }
+}
