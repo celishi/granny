@@ -26,6 +26,7 @@ public class grandma : MonoBehaviour
     public float SpeedDecrease;
     private float SpeedPlaceholder = 0;
 
+    public Animator animator;
     void Start()
     {
         DistanceTravelled = 0;

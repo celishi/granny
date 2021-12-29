@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 725230908}
   - component: {fileID: 725230907}
   - component: {fileID: 725230906}
+  - component: {fileID: 725230911}
   m_Layer: 0
   m_Name: grandma
   m_TagString: grandma
@@ -296,6 +297,7 @@ MonoBehaviour:
   MaxSpeed: 15
   slowed: 0
   SpeedDecrease: 2
+  animator: {fileID: 725230911}
 --- !u!212 &725230909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -361,6 +363,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &725230911
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725230905}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d7ce80a7641ee0e49a9e145c0da7dc98, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2081914317
 PrefabInstance:
   m_ObjectHideFlags: 0

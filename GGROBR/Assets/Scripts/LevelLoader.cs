@@ -9,6 +9,14 @@ public class LevelLoader : MonoBehaviour
     public float transitionTime;
     public int NextScene;
 
+    private void Update()
+    {
+        if (GameObject.FindWithTag("grandma").GetComponent<grandma>().health == 0)
+        {
+            LoadNextScene();
+        }       
+    }
+
     public void LoadNextScene()
     {
         StartCoroutine((string)LoadScene());        

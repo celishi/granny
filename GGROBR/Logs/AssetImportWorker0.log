@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'en' Physical Memory: 16258 MB
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'en' Physical Memory: 16165 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,181 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/minei/OneDrive/Documents/My repos/granny/GGROBR
+C:/celia/granny/GGROBR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52553
-Successfully changed project path to: C:/Users/minei/OneDrive/Documents/My repos/granny/GGROBR
-C:/Users/minei/OneDrive/Documents/My repos/granny/GGROBR
+54661
+Successfully changed project path to: C:/celia/granny/GGROBR
+C:/celia/granny/GGROBR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/minei/OneDrive/Documents/My repos/granny/GGROBR/Assets
+[Subsystems] Discovering subsystems at path C:/celia/granny/GGROBR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x162)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
     Vendor:   
-    VRAM:     128 MB
-    Driver:   10.18.10.4885
+    VRAM:     8082 MB
+    Driver:   27.20.100.9316
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003735 seconds.
+Registered in 0.003354 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
+- Completed reload, in  1.276 seconds
 Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (237ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006361 seconds.
+Registered in 0.007976 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000025F883BE020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BA31970 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883BAAC0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BA29430 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC79C40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BD7C720 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC79C40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88330870 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A9A49C0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A633C20 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A9C1020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC79C40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883BAAC0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A633C20 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88330870 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A9A49C0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8B858370 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88330870 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AB98020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A65A360 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AC00A30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883BAAC0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A65A360 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AC00A30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AADA490 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F87E6C530 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A82B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826AC20 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8335C220 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471D00 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA8DA30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A9AC9D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A847A20 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
+- Completed reload, in  2.326 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1718ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (2328ms)
+		BeginReloadAssembly (275ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1407ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1924ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
+			SetupTypeCache (624ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (491ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (750ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2243 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.1 MB.
+Unloading 2249 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 3.740700 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.097500 ms MarkObjects: 3.340300 ms  DeleteObjects: 0.086300 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 5.809500 ms (FindLiveObjects: 0.260200 ms CreateObjectMapping: 0.109900 ms MarkObjects: 5.291300 ms  DeleteObjects: 0.146400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,278 +194,154 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/LevelLoader.prefab
-  artifactKey: Guid(37850e2dcf699c54db6b937520331fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelLoader.prefab using Guid(37850e2dcf699c54db6b937520331fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75590713a29dc87afdd1fd240fa3b234') in 0.083832 seconds 
-  Import took 0.088736 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(3140aa6212198e549918c334fdc35a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3140aa6212198e549918c334fdc35a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3c18d23dd5b6106045cdf6d2bb5c77') in 0.020539 seconds 
+  Import took 0.027578 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.288708 seconds.
-  path: Assets/Prefabs/SoftCollider.prefab
-  artifactKey: Guid(44dcc29285c9be14eaacacb994aa919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SoftCollider.prefab using Guid(44dcc29285c9be14eaacacb994aa919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6386d3feefd6d958fda16b21870c0e') in 0.082308 seconds 
-  Import took 0.087324 seconds .
+  Time since last request: 2.755984 seconds.
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b80df2ffdb02dbd1522c66f5cab46') in 0.023699 seconds 
+  Import took 0.029921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Prefabs/Tile_Easy6.prefab
-  artifactKey: Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy6.prefab using Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53fdec77d5fd1175564ce8f281df87c') in 0.042292 seconds 
-  Import took 0.047918 seconds .
+  Time since last request: 68.520024 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41907d8436ea88fc1579086ac4951dcb') in 0.024975 seconds 
+  Import took 0.034633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Prefabs/Tile_Easy5.prefab
-  artifactKey: Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy5.prefab using Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692d29e89b2adca6b63da09e67037a24') in 0.030831 seconds 
-  Import took 0.037292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/Tile_Medium2.prefab
-  artifactKey: Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium2.prefab using Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb3cd1fc5073aea6d8ddb0b19c07fb') in 0.027082 seconds 
-  Import took 0.034048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Prefabs/TIle_Medium5 1.prefab
-  artifactKey: Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TIle_Medium5 1.prefab using Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7515832efc34f8a1f064b6c806db1ded') in 0.026854 seconds 
-  Import took 0.034572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Prefabs/Tile_Easy3.prefab
-  artifactKey: Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy3.prefab using Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45efe0ca8f54b2d3e75686d11f1f4f') in 0.019455 seconds 
-  Import took 0.025024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/Tile_Medium3.prefab
-  artifactKey: Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium3.prefab using Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797ada45642481c37661620dfbfeaeca') in 0.020391 seconds 
-  Import took 0.025775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefabs/ThinHardCollider.prefab
-  artifactKey: Guid(d695f7681e0aaac47ad50faf76f255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ThinHardCollider.prefab using Guid(d695f7681e0aaac47ad50faf76f255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96630c9d6bf92238e49f2176f73a55aa') in 0.015656 seconds 
-  Import took 0.020884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Prefabs/Tile_Easy4.prefab
-  artifactKey: Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy4.prefab using Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15250d3ea7816f17c8cc19df9b8be39b') in 0.025791 seconds 
-  Import took 0.031470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefabs/Tile_Medium4.prefab
-  artifactKey: Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium4.prefab using Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5dbd967d61e39d6d672eb00a382177') in 0.027034 seconds 
-  Import took 0.033785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Prefabs/Tile_Medium1.prefab
-  artifactKey: Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium1.prefab using Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4bcdebf43faeb5ea87575eb2137572') in 0.017625 seconds 
-  Import took 0.022334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Prefabs/Tile_Easy1.prefab
-  artifactKey: Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy1.prefab using Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351b0eddd55d6896c8f6bc67852cf33') in 0.018580 seconds 
-  Import took 0.022728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabs/Tile_Easy2.prefab
-  artifactKey: Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy2.prefab using Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383bab294542cbd01908e9b999e5dc29') in 0.018503 seconds 
-  Import took 0.022455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.154362 seconds.
-  path: Assets/Prefabs/ConditionalCollider.prefab
-  artifactKey: Guid(240347327e2ec6c4ab5ff9215c6a9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ConditionalCollider.prefab using Guid(240347327e2ec6c4ab5ff9215c6a9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b588c3ece888a3956961cbb967627e4f') in 0.023436 seconds 
-  Import took 0.028159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Prefabs/Tile_Easy6.prefab
-  artifactKey: Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy6.prefab using Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68feb467693296b88ff4e731843634b7') in 0.022792 seconds 
-  Import took 0.028610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefabs/HardCollider.prefab
-  artifactKey: Guid(f86c54e80b2068f429f735945ecfb23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HardCollider.prefab using Guid(f86c54e80b2068f429f735945ecfb23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42de61df659eceb44f2fe06ae52a3271') in 0.016686 seconds 
-  Import took 0.021388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/Tile_Easy5.prefab
-  artifactKey: Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy5.prefab using Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d7c023db67becf6108c08a507eb8cf') in 0.018517 seconds 
-  Import took 0.023001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/Tile_Medium2.prefab
-  artifactKey: Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium2.prefab using Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5772ea5dbe72cd24a45f8836cef6948') in 0.018020 seconds 
-  Import took 0.022454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/TIle_Medium5 1.prefab
-  artifactKey: Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TIle_Medium5 1.prefab using Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2088ac526e9b138c68161b61b0ebdc5f') in 0.020798 seconds 
-  Import took 0.024909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/Tile_Easy3.prefab
-  artifactKey: Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy3.prefab using Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436af8cf1c022e355153c2a1e07eb482') in 0.018458 seconds 
-  Import took 0.022728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Prefabs/Tile_Medium3.prefab
-  artifactKey: Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium3.prefab using Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ab97cff5f701786299965565fa0c1d') in 0.034996 seconds 
-  Import took 0.039949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Prefabs/Tile_Easy4.prefab
-  artifactKey: Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy4.prefab using Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b6ad6c457eafcbdb03ca8cfa21afae') in 0.018330 seconds 
-  Import took 0.022269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Prefabs/Tile_Medium4.prefab
-  artifactKey: Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium4.prefab using Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad02aaffe099077cce62f16656837f43') in 0.019231 seconds 
-  Import took 0.023528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Prefabs/Tile_Medium1.prefab
-  artifactKey: Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium1.prefab using Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9532978054c1177776f62d3cd79cebe') in 0.021724 seconds 
-  Import took 0.026214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Prefabs/Tile_Easy1.prefab
-  artifactKey: Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy1.prefab using Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ac037a541f765e3f7815973a8e4f8c') in 0.016487 seconds 
-  Import took 0.020765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Prefabs/Tile_Easy2.prefab
-  artifactKey: Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy2.prefab using Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9226411e3734cd1388097a724c7ed3') in 0.029776 seconds 
-  Import took 0.035551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.293554 seconds.
-  path: Assets/Scripts/LevelLoader1.cs
-  artifactKey: Guid(b0e6b850b92ce7c48bfc9064c130522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelLoader1.cs using Guid(b0e6b850b92ce7c48bfc9064c130522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94313374a74f5cb90e344dbe8ee6e4bc') in 0.012400 seconds 
-  Import took 0.017220 seconds .
+  Time since last request: 373.930851 seconds.
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edaab2731291287cfa1083b07c49753') in 0.012347 seconds 
+  Import took 0.023772 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006223 seconds.
+Registered in 0.010177 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8BF29010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF65070 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE2A90 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC9B6D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C415030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D99E9B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C5B1050 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C415030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D99E9B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BD7C720 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C10B440 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D99E9B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A82B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884D9010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883EE300 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884D9010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883EE300 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC57010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BCA4CE0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA9CC80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C5B1050 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E66D030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471ED0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C01BE20 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  2.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1543ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (2369ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1240ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1982ms)
+			LoadAssemblies (206ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (479ms)
+			SetupTypeCache (678ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (766ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.6 MB.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2691.
-Total: 3.454600 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.093000 ms MarkObjects: 3.142700 ms  DeleteObjects: 0.018400 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 6.051100 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.149700 ms MarkObjects: 5.603100 ms  DeleteObjects: 0.037100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -409,135 +350,1285 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.308471 seconds.
+  Time since last request: 5.613352 seconds.
+  path: Assets/Scenes/Gameplay.unity
+  artifactKey: Guid(dc7116bc3c52cc34d8ec93304d675e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gameplay.unity using Guid(dc7116bc3c52cc34d8ec93304d675e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0115aeeab4d4e11308b0fcf6e6d7dafa') in 0.045805 seconds 
+  Import took 0.054317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.890430 seconds.
+  path: Assets/Scripts/LevelLoader.cs
+  artifactKey: Guid(6ae5d3981fb7a4e4db8ab779c23f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelLoader.cs using Guid(6ae5d3981fb7a4e4db8ab779c23f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff5e934b6cacfb49deb8c7d84ff8220') in 0.053464 seconds 
+  Import took 0.062326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.383019 seconds.
+  path: Assets/Scripts/LevelLoader.cs
+  artifactKey: Guid(6ae5d3981fb7a4e4db8ab779c23f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelLoader.cs using Guid(6ae5d3981fb7a4e4db8ab779c23f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3748905b98d177732b5689a835586528') in 0.009290 seconds 
+  Import took 0.020997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8E449F60 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8B7B3A60 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C5B51F0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC9B6D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C57D020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8B0B9C90 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC4F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BE8E3A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8823D010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EA78A40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883EE300 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EA78A40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F883EE300 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E436030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BE8E3A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ABEC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C57D020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88199030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471B30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C57D020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2553ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (701ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (844ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 6.892000 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.114000 ms MarkObjects: 6.527800 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.024499 seconds.
   path: Assets/Scenes/Scene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a809b593c766ca121632d630f78a684e') in 0.028212 seconds 
-  Import took 0.034726 seconds .
+Start importing Assets/Scenes/Scene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ed7f64118412679e335f48bcb84625') in 0.051708 seconds 
+  Import took 0.059487 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.993137 seconds.
-  path: Assets/Prefabs/ConditionalCollider.prefab
-  artifactKey: Guid(240347327e2ec6c4ab5ff9215c6a9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ConditionalCollider.prefab using Guid(240347327e2ec6c4ab5ff9215c6a9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba4ecc7537ef0f78339f2c607297e96') in 0.070119 seconds 
-  Import took 0.075641 seconds .
+  Time since last request: 12.212636 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43ad10ef862814a5d1b2bb39a101865') in 0.009892 seconds 
+  Import took 0.017649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/Tile_Easy6.prefab
-  artifactKey: Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy6.prefab using Guid(55eb5bbe6ad734c4c803506b8ab288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6015bba44b53fd71f3d67f387c0d4d93') in 0.022628 seconds 
-  Import took 0.027661 seconds .
+  Time since last request: 3.209046 seconds.
+  path: Assets/Scenes/Scene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b96b04562483153f4b20737ff57bdb2') in 0.010736 seconds 
+  Import took 0.021558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8F03F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88132A40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AFF3D90 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FAFE5C020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EDCC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EDCC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF6B4A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA9CC80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D99E9B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D99E9B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025DFD3DA440 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8B7BF840 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8876A730 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EDCC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BBA6040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471B30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE5030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EDCC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2581ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2172ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (743ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (766ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 6.175000 ms (FindLiveObjects: 0.244700 ms CreateObjectMapping: 0.178000 ms MarkObjects: 5.715200 ms  DeleteObjects: 0.035100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 354.590561 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2500825d323eaf8449e1bb98f3f44aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809893fd4f3326c210e2e4728169b9f') in 0.032993 seconds 
+  Import took 0.039988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Prefabs/HardCollider.prefab
-  artifactKey: Guid(f86c54e80b2068f429f735945ecfb23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HardCollider.prefab using Guid(f86c54e80b2068f429f735945ecfb23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f80dbc374b0f3aea0b418b1d4d1c0f5') in 0.017688 seconds 
-  Import took 0.024489 seconds .
+  Time since last request: 257.037124 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1bb398137a00be6e06e68b72b365d') in 0.296290 seconds 
+  Import took 0.304979 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/Tile_Easy5.prefab
-  artifactKey: Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy5.prefab using Guid(fce2ea0f9b6481148987f13227242636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed83b09d9c7f3f6c9d13a0509821401d') in 0.019493 seconds 
-  Import took 0.024701 seconds .
+  Time since last request: 0.000454 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecbacf0b5b681b775f225c866b98f6e') in 0.042901 seconds 
+  Import took 0.052629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Prefabs/Tile_Medium2.prefab
-  artifactKey: Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium2.prefab using Guid(a9c3f6ed4466ad447bce9a3786d6de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463339f78a8fde8c3a0a5732a4b2ecb2') in 0.020595 seconds 
-  Import took 0.026483 seconds .
+  Time since last request: 0.000513 seconds.
+  path: Assets/Fonts/Raccoon Demo SDF.asset
+  artifactKey: Guid(12359d9423c63fb4da3de0994c2c4d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Raccoon Demo SDF.asset using Guid(12359d9423c63fb4da3de0994c2c4d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed059dfdc24857e71bec95a09e648225') in 0.064092 seconds 
+  Import took 0.071721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Prefabs/SoftCollider.prefab
-  artifactKey: Guid(44dcc29285c9be14eaacacb994aa919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SoftCollider.prefab using Guid(44dcc29285c9be14eaacacb994aa919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea6cd9ecc6510ce473ca550dadd51df') in 0.018271 seconds 
-  Import took 0.023305 seconds .
+  Time since last request: 0.000708 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.034452 seconds 
+  Import took 0.043412 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Prefabs/TIle_Medium5 1.prefab
-  artifactKey: Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TIle_Medium5 1.prefab using Guid(a7712259483c5c14aa26bdd52cad89e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1343e3f5b53fc8164aa069441c28f894') in 0.018856 seconds 
-  Import took 0.025636 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb93c09ad45f6e656fb1966a95741fa') in 0.032557 seconds 
+  Import took 0.041404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Prefabs/Tile_Easy3.prefab
-  artifactKey: Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy3.prefab using Guid(46ca9bc6eec51f748b5ed2c7e9320cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577da41066ad41cea8ecc841e43c33f8') in 0.024734 seconds 
-  Import took 0.031361 seconds .
+  Time since last request: 0.000589 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.094758 seconds 
+  Import took 0.102396 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Prefabs/Tile_Medium3.prefab
-  artifactKey: Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium3.prefab using Guid(c5eec01fd96c6844090a15f7aa910a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6752b7d0e396aa4c87ea9691c37a78') in 0.017395 seconds 
-  Import took 0.025351 seconds .
+  Time since last request: 0.000415 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e28bdeb8e7d744101e38a9ef9c0f') in 0.028926 seconds 
+  Import took 0.036155 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007725 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8F260020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BBE97C0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88333470 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E85BA90 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F158020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E346FB0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB01C6010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE1020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F158020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F158020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88333470 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB01C6010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE1020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E126170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BA12E50 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE1020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA9CC80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED26020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA7B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88333470 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C4CD020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA7B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC43030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BA12E50 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA15020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F158020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED2A830 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884715C0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88333470 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F158020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.199 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2200ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1814ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (715ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 101.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 7.005900 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 6.560300 ms  DeleteObjects: 0.039100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.760313 seconds.
+  path: Assets/Animations/Play Again.controller
+  artifactKey: Guid(fd5054e3c204d2449ae76df9cdcdc15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Play Again.controller using Guid(fd5054e3c204d2449ae76df9cdcdc15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f50696dcfaeb779e063b959739e07d4') in 0.097372 seconds 
+  Import took 0.104432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefabs/ThinHardCollider.prefab
-  artifactKey: Guid(d695f7681e0aaac47ad50faf76f255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ThinHardCollider.prefab using Guid(d695f7681e0aaac47ad50faf76f255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3315db8b3971f726f7d14b7cae78d6') in 0.015397 seconds 
-  Import took 0.020668 seconds .
+  Time since last request: 61.737776 seconds.
+  path: Assets/Animations/Main Menu.controller
+  artifactKey: Guid(3b1821762f206634292b5fa34dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Main Menu.controller using Guid(3b1821762f206634292b5fa34dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5139d1266160b02ddff8c7d0f7e26abb') in 0.017844 seconds 
+  Import took 0.025226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Prefabs/Tile_Easy4.prefab
-  artifactKey: Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy4.prefab using Guid(50f97561789d5a3448db66af237c974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f010918ae5c8183a242fb16eef312e') in 0.022759 seconds 
-  Import took 0.028887 seconds .
+  Time since last request: 18.637009 seconds.
+  path: Assets/Animations/Start Button.controller
+  artifactKey: Guid(67d6d2a97a394c7489a7da265ced30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Start Button.controller using Guid(67d6d2a97a394c7489a7da265ced30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c7dc4df2f975f147bb1341a21c006c') in 0.010018 seconds 
+  Import took 0.017419 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007994 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8A9C1020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F1117E0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E5077B0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E346FB0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E48B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88328860 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F887A4030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C256430 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8823D010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB0154060 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA7B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB0154060 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F75D020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AC2A030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F21D700 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C3590A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88328860 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BEE6820 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471790 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88328860 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2060ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1732ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (603ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.9 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 7.212000 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.234900 ms MarkObjects: 6.696700 ms  DeleteObjects: 0.025700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8F03F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884E0470 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E5091D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BD84730 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E469F80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88328860 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF6B4A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ABEC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA7B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E234030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F21D700 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C3590A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AAD1180 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471790 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881B6C30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2161ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (602ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 6.932400 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.320200 ms MarkObjects: 6.154100 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008764 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8AA27010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BDD0680 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C349DE0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BD84730 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A83B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF6B4A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A672020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB01E0030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E8C4040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED2F710 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AAD1180 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471960 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2225ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1869ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 6.397900 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.206700 ms MarkObjects: 5.769200 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.120747 seconds.
+  path: Assets/Prefabs/MenuController.prefab
+  artifactKey: Guid(b1b1d39b919fee143bc7d9c2124c30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuController.prefab using Guid(b1b1d39b919fee143bc7d9c2124c30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed944f3ada1acbadb6ce0a8832f74945') in 0.069158 seconds 
+  Import took 0.076384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefabs/Tile_Medium4.prefab
-  artifactKey: Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium4.prefab using Guid(7827022ccfb11d742b40305225040142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a55a54fe8b5c9a11189e44606127e15') in 0.021159 seconds 
-  Import took 0.028878 seconds .
+  Time since last request: 14.274071 seconds.
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(eb6fe4efb84eaab4a922bcb3e5d40e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b352dcca517bdb86793c1ceac0955a0') in 0.016266 seconds 
+  Import took 0.024880 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Prefabs/Tile_Medium1.prefab
-  artifactKey: Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Medium1.prefab using Guid(a20a8e3d4ee763d41aaac51d0f767f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe51281b989c2a74f1bee1eaaebc489') in 0.025156 seconds 
-  Import took 0.032350 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007660 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8AA27010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EED3A80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F46F280 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC9B6D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DCF7010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EA74040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F882BE350 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF6B4A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A672020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA7B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AACCDF0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BF49030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED2F710 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A957010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D894050 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AAD1180 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884715C0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAA8030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2102ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1755ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.3 MB.
 
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 5.542000 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.133500 ms MarkObjects: 5.079600 ms  DeleteObjects: 0.033300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Prefabs/Tile_Easy1.prefab
-  artifactKey: Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy1.prefab using Guid(e34a39ddb3caf42488abfe42590cacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfe320222aaf22979fbac13ec147988') in 0.018758 seconds 
-  Import took 0.024560 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8AA27010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8805AB80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881B6C30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F2934D0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAAAC60 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A989040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881B6C30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8818B020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C06B220 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A672020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8826D040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AA9CC80 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881B6C30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884D9010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E234030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BAB4270 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88271850 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F88471790 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881B6C30 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8F282510 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2117ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1791ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (628ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.3 MB.
 
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 7.273000 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.153100 ms MarkObjects: 6.739000 ms  DeleteObjects: 0.032300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Prefabs/Tile_Easy2.prefab
-  artifactKey: Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile_Easy2.prefab using Guid(508b32fb21b1cb04a9d71f0357b75548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701f6958a80f14fa05e5ded8bbee84d3') in 0.026784 seconds 
-  Import took 0.032832 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009111 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025F8AA27010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB09C6B90 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC43030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C34EC40 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DFDD2A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DCF7010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D894050 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8C044010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F886EF590 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC43030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E28C040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DB7F170 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EF6B4A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AAC8DE0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8A82B010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED26020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8EA64030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8887A010 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC43030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AE00020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8BC6F030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E234030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8ED2F710 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025FB0A3E020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8D894050 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8AAD1180 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F884720A0 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8E798040 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F8DC43030 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F881AC020 doesn't match image C:\celia\granny\GGROBR\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2231ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1877ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (667ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.2 MB.
 
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 7.233200 ms (FindLiveObjects: 0.574100 ms CreateObjectMapping: 0.313500 ms MarkObjects: 6.305800 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
