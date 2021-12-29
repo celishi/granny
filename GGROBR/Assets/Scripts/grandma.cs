@@ -96,7 +96,7 @@ public class grandma : MonoBehaviour
                 
             }
         }
-        DistanceTravelled = DistanceTravelled + (float)0.01 * XSpeed;
+        DistanceTravelled = DistanceTravelled + XSpeed * Time.deltaTime;
         if (CurrentLane == 1) 
         {
             //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;

@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     public int DistancePerTile; //Distance Traveled Necessary to Instantiate new Tile
     public List<GameObject> TilesOfObstacles; //List of Obstacle Tiles
     private int PreviousModResult = -1; //Used to Check if New Tile Is Needed
-    private List<int> ListOfChoices = new List<int> { 0, 1, 2, 3, 4, 5, 6 }; //List of Valid Choices, number of tiles, TBD 
+    private List<int> ListOfChoices = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; //List of Valid Choices, number of tiles, TBD 
     private List<int> ListOnCD = new List<int> { }; //List of Tiles on Cooldown
     private int ThresholdCounter = 0;
     private int Threshold1 = 10000;
@@ -20,13 +20,17 @@ public class Spawner : MonoBehaviour
     {
         int i = 0;
         int remove;
-        while (i < 4)
+        while (i < 3)
         {
-            remove = Random.Range(0, ListOfChoices.Count);
+            remove = Random.Range(0, ListOfChoices.Count-1);
             ListOnCD.Add(remove);
             ListOfChoices.Remove(remove);
             i++;
         }
+        remove = ListOfChoices[Random.Range(0, ListOfChoices.Count-1)];
+        Instantiate(TilesOfObstacles[ListOfChoices[remove]], SpawnPoint.transform.position, Quaternion.identity);
+        ListOnCD.Add(remove);
+        ListOfChoices.Remove(remove);
         //Sets 4 Tiles on Cooldown at the Start
     }
 
@@ -84,7 +88,8 @@ public class Spawner : MonoBehaviour
             ThresholdCounter++;
         }
 
-        int ChoiceOfSpawn = Random.Range(0, ListOfChoices.Count); //Chooses a Random Tile to Spawn
+        int ChoiceOfSpawn = ListOfChoices[Random.Range(0, ListOfChoices.Count-1)]; //Chooses a Random Tile to Spawn
+        print(ChoiceOfSpawn);
 
         if (PlayerDistance % DistancePerTile < PreviousModResult) //Checks if Player Has Passed Threshold to Spawn New Tile by Checking if Player Has JUST Passed Threshold
         {
