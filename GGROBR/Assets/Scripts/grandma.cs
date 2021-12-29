@@ -22,13 +22,14 @@ public class grandma : MonoBehaviour
     public float MaxSpeed;
     private int CurrentLane = 2;
     public bool slowed = false;
-    private bool SlowedState = false;
+    public bool SlowedState = false;
+    public int hit;
     public float SpeedDecrease;
     private float SpeedPlaceholder = 0;
 
-    public Animator animator;
     void Start()
     {
+        hit = 0;
         DistanceTravelled = 0;
         targetPos = transform.position;
     }
@@ -38,22 +39,22 @@ public class grandma : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, targetPos, YSpeed * Time.deltaTime);
         
-        if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight && health > 0)
         {
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
             CurrentLane--;
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y > minHeight)
+        else if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y > minHeight && health > 0)
         {
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
             CurrentLane++;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && condition == 0)
+        if (Input.GetKeyDown(KeyCode.Space) && condition == 0 && health > 0)
         {
             condition = 1;
             conditioncounter = 1;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftShift) && condition == 0)
+        else if (Input.GetKeyDown(KeyCode.LeftShift) && condition == 0 && health > 0)
         {
             condition = 2;
             conditioncounter = 1;
@@ -69,19 +70,26 @@ public class grandma : MonoBehaviour
         }
         if (slowed == true && SlowedState == true) 
         {
+            hit = 2;
             health--;
             XSpeed = XSpeed - SpeedDecrease;
             slowed = false;
         }
         else if (slowed == true) 
         {
+            hit = 1;
             SpeedPlaceholder = XSpeed;
             XSpeed = XSpeed - SpeedDecrease;
             SlowedState = true;
             slowed = false;
         }
+        if (XSpeed < SpeedPlaceholder - 2) 
+        {
+            XSpeed = SpeedPlaceholder - 2;
+        }
         if (XSpeed >= SpeedPlaceholder)
         {
+            hit = 0;
             SlowedState = false;
         }
         if (SlowedState == true) 
@@ -96,6 +104,10 @@ public class grandma : MonoBehaviour
                 XSpeed = MaxSpeed;
                 
             }
+        }
+        if (health == 0) 
+        {
+            XSpeed = 0;
         }
         DistanceTravelled = DistanceTravelled + XSpeed * Time.deltaTime;
         if (CurrentLane == 1) 

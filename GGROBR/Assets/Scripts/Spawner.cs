@@ -89,7 +89,6 @@ public class Spawner : MonoBehaviour
         }
 
         int ChoiceOfSpawn = ListOfChoices[Random.Range(0, ListOfChoices.Count-1)]; //Chooses a Random Tile to Spawn
-        print(ChoiceOfSpawn);
 
         if (PlayerDistance % DistancePerTile < PreviousModResult) //Checks if Player Has Passed Threshold to Spawn New Tile by Checking if Player Has JUST Passed Threshold
         {
