@@ -5,21 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public Animator CircleZoomMain;
-    public float transitionTime = 1f;
+    public Animator TransitionAnimation;
+    public float transitionTime;
     public int NextScene;
 
-    public void LoadNextLevel()
+    public void LoadNextScene()
     {
-        StartCoroutine((string)Loadlevel(NextScene));        
+        StartCoroutine((string)LoadScene());        
     }
 
-    IEnumerable Loadlevel(int SceneIndex)
+    IEnumerable LoadScene()
     {
-        CircleZoomMain.SetTrigger("start"); //play animation
+        TransitionAnimation.SetTrigger("start"); //play animation
 
         yield return new WaitForSeconds(transitionTime); //wait
 
-        SceneManager.LoadScene(SceneIndex); //load scene
+        SceneManager.LoadScene(NextScene); //load scene
     }
 }
