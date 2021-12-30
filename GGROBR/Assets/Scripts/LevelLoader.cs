@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public Animator TransitionAnimation;
-    public float transitionTime;
-    public int NextScene;
+    public Animator transition;
+    public float transitionTime = 1f;
 
     private void Update()
     {
-        if (GameObject.FindWithTag("grandma").GetComponent<grandma>().health == 0)
+        if(GameObject.FindWithTag("grandma").GetComponent<grandma>().health == 0)
         {
             LoadNextScene();
         }       
@@ -19,15 +18,15 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextScene()
     {
-        StartCoroutine((string)LoadScene());        
+        StartCoroutine((string)LoadLevel());        
     }
 
-    IEnumerable LoadScene()
+    IEnumerable LoadLevel()
     {
-        TransitionAnimation.SetTrigger("start"); //play animation
+        transition.SetTrigger("Start"); //play animation
 
         yield return new WaitForSeconds(transitionTime); //wait
 
-        SceneManager.LoadScene(NextScene); //load scene
+        SceneManager.LoadScene("GameOver"); //load scene
     }
 }

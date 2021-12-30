@@ -1,6 +1,7 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class grandma : MonoBehaviour
 {
@@ -26,6 +27,10 @@ public class grandma : MonoBehaviour
     public int hit;
     public float SpeedDecrease;
     private float SpeedPlaceholder = 0;
+    private int NewDistance;
+
+    public Text healthDisplay;
+    public Text scoreDisplay;
 
     void Start()
     {
@@ -37,6 +42,10 @@ public class grandma : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        healthDisplay.text = health.ToString();
+        NewDistance = (int)DistanceTravelled/2;
+        scoreDisplay.text = NewDistance.ToString();
+
         transform.position = Vector2.MoveTowards(transform.position, targetPos, YSpeed * Time.deltaTime);
         
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight && health > 0)
