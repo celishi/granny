@@ -6,6 +6,21 @@ public class SoftCollider : MonoBehaviour
 {
     public float speed;
 
+    void Start()
+    {
+        if (transform.position.y > 1)
+        {
+            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+        }
+        if (1 > transform.position.y && transform.position.y > -1)
+        {
+            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+        }
+        if (transform.position.y < -1)
+        {
+            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+        }
+    }
     // Update is called once per frame
     private void Update()
     {
