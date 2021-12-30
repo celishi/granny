@@ -15,8 +15,11 @@ public class grandma : MonoBehaviour
     public float minHeight;
 
     public int health;
-    public int condition;
-    private float conditioncounter = 0;
+    public bool jumping = false;
+    public bool smashing = false;
+    private float DistanceRN;
+    private float jumpingtime = 3;
+    private float smashingtime = 2; 
 
     public float DistanceTravelled;
     public float XSpeed;
@@ -58,24 +61,23 @@ public class grandma : MonoBehaviour
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
             CurrentLane++;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && condition == 0 && health > 0)
+        if (Input.GetKeyDown(KeyCode.Space) && jumping == false && smashing == false && health > 0)
         {
-            condition = 1;
-            conditioncounter = 1;
+            jumping = true;
+            DistanceRN = DistanceTravelled;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftShift) && condition == 0 && health > 0)
+        else if (Input.GetKeyDown(KeyCode.S) &&  jumping == false && smashing == false && health > 0)
         {
-            condition = 2;
-            conditioncounter = 1;
+            smashing = true;
+            DistanceRN = DistanceTravelled;
         }
-        if (conditioncounter > 0)
+        if (DistanceTravelled >= DistanceRN + jumpingtime && jumping == true)  
         {
-            conditioncounter = conditioncounter - Time.deltaTime;
+            jumping = false;
         }
-        else if (conditioncounter <= 0) 
+        if (DistanceTravelled >= DistanceRN + smashingtime && smashing == true)
         {
-            condition = 0;
-            conditioncounter = 0;
+            smashing = false;
         }
         if (slowed == true && SlowedState == true) 
         {
