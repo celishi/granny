@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class grandma : MonoBehaviour
 {
     // Start is called before the first frame update
-    
+
     private Vector2 targetPos;
     public float Yincrement;
 
@@ -19,7 +19,7 @@ public class grandma : MonoBehaviour
     public bool smashing = false;
     private float DistanceRN;
     private float jumpingtime = 3;
-    private float smashingtime = 2; 
+    private float smashingtime = 2;
 
     public float DistanceTravelled;
     public float XSpeed;
@@ -46,11 +46,11 @@ public class grandma : MonoBehaviour
     private void Update()
     {
         healthDisplay.text = health.ToString();
-        NewDistance = (int)DistanceTravelled/2;
+        NewDistance = (int)DistanceTravelled / 2;
         scoreDisplay.text = NewDistance.ToString();
 
         transform.position = Vector2.MoveTowards(transform.position, targetPos, YSpeed * Time.deltaTime);
-        
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight && health > 0)
         {
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
@@ -66,12 +66,12 @@ public class grandma : MonoBehaviour
             jumping = true;
             DistanceRN = DistanceTravelled;
         }
-        else if (Input.GetKeyDown(KeyCode.S) &&  jumping == false && smashing == false && health > 0)
+        else if (Input.GetKeyDown(KeyCode.S) && jumping == false && smashing == false && health > 0)
         {
             smashing = true;
             DistanceRN = DistanceTravelled;
         }
-        if (DistanceTravelled >= DistanceRN + jumpingtime && jumping == true)  
+        if (DistanceTravelled >= DistanceRN + jumpingtime && jumping == true)
         {
             jumping = false;
         }
@@ -79,14 +79,14 @@ public class grandma : MonoBehaviour
         {
             smashing = false;
         }
-        if (slowed == true && SlowedState == true) 
+        if (slowed == true && SlowedState == true)
         {
             hit = 2;
             health--;
             XSpeed = XSpeed - SpeedDecrease;
             slowed = false;
         }
-        else if (slowed == true) 
+        else if (slowed == true)
         {
             hit = 1;
             SpeedPlaceholder = XSpeed;
@@ -94,7 +94,7 @@ public class grandma : MonoBehaviour
             SlowedState = true;
             slowed = false;
         }
-        if (XSpeed < SpeedPlaceholder - 2) 
+        if (XSpeed < SpeedPlaceholder - 2)
         {
             XSpeed = SpeedPlaceholder - 2;
         }
@@ -103,35 +103,35 @@ public class grandma : MonoBehaviour
             hit = 0;
             SlowedState = false;
         }
-        if (SlowedState == true) 
+        if (SlowedState == true)
         {
             XSpeed = XSpeed + (float)0.25 * Time.deltaTime * SpeedDecrease;
         }
-        else 
+        else
         {
             XSpeed = Mathf.Pow((float)1.2, (float)0.2 * (Time.time) - 10) + 5;
             if (XSpeed > MaxSpeed)
             {
                 XSpeed = MaxSpeed;
-                
+
             }
         }
-        if (health == 0) 
+        if (health == 0)
         {
             XSpeed = 0;
         }
         DistanceTravelled = DistanceTravelled + XSpeed * Time.deltaTime;
-        if (CurrentLane == 1) 
+        if (CurrentLane == 1)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane1";
         }
         if (CurrentLane == 2)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = 1916578653;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane2";
         }
         if (CurrentLane == 3)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = -1016285291;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane3";
         }
     }
 }

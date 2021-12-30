@@ -10,15 +10,15 @@ public class SoftCollider : MonoBehaviour
     {
         if (transform.position.y > 1)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane1";
         }
         if (1 > transform.position.y && transform.position.y > -1)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane2";
         }
         if (transform.position.y < -1)
         {
-            //GetComponent<SpriteRenderer>().sortingLayerID = -1794490669;
+            GetComponent<SpriteRenderer>().sortingLayerName = "lane3";
         }
     }
     // Update is called once per frame
