@@ -34,9 +34,12 @@ public class grandma : MonoBehaviour
 
     public Text healthDisplay;
     public Text scoreDisplay;
+    public Animator animator;
 
     void Start()
     {
+        animator.SetBool("IsJumping", false);
+        animator.SetBool("IsSmashing", false);
         hit = 0;
         DistanceTravelled = 0;
         targetPos = transform.position;
@@ -45,9 +48,9 @@ public class grandma : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        healthDisplay.text = health.ToString();
+        healthDisplay.text = "Health: " + health.ToString();
         NewDistance = (int)DistanceTravelled / 2;
-        scoreDisplay.text = NewDistance.ToString();
+        scoreDisplay.text = "Score: " + NewDistance.ToString();
 
         transform.position = Vector2.MoveTowards(transform.position, targetPos, YSpeed * Time.deltaTime);
 
@@ -65,19 +68,23 @@ public class grandma : MonoBehaviour
         {
             jumping = true;
             DistanceRN = DistanceTravelled;
+            animator.SetBool("IsJumping", true);
         }
         else if (Input.GetKeyDown(KeyCode.S) && jumping == false && smashing == false && health > 0)
         {
             smashing = true;
             DistanceRN = DistanceTravelled;
+            animator.SetBool("IsSmashing", true);
         }
         if (DistanceTravelled >= DistanceRN + jumpingtime && jumping == true)
         {
             jumping = false;
+            animator.SetBool("IsJumping", false);
         }
         if (DistanceTravelled >= DistanceRN + smashingtime && smashing == true)
         {
             smashing = false;
+            animator.SetBool("IsSmashing", false);
         }
         if (slowed == true && SlowedState == true)
         {
@@ -109,7 +116,7 @@ public class grandma : MonoBehaviour
         }
         else
         {
-            XSpeed = Mathf.Pow((float)1.2, (float)0.2 * (Time.time) - 10) + 5;
+            XSpeed = Mathf.Pow((float)1.2, (float)0.2 * (Time.timeSinceLevelLoad) - 10) + 5;
             if (XSpeed > MaxSpeed)
             {
                 XSpeed = MaxSpeed;
@@ -119,6 +126,13 @@ public class grandma : MonoBehaviour
         if (health == 0)
         {
             XSpeed = 0;
+            animator.SetBool("IsDead", true);
+            animator.SetBool("IsJumping", false);
+            animator.SetBool("IsSmashing", false);
+        }
+        else
+        {
+            animator.SetBool("IsDead", false);
         }
         DistanceTravelled = DistanceTravelled + XSpeed * Time.deltaTime;
         if (CurrentLane == 1)

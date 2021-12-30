@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class BackgroundScroll : MonoBehaviour
 {
-    [Range(-1f,1f)]
-    public float scrollSpeed = 0.5f;
+    public float scrollSpeed;
     private float offset;
     private Material mat;
    
@@ -15,6 +14,7 @@ public class BackgroundScroll : MonoBehaviour
 
     void Update()
     {
+        scrollSpeed = GameObject.FindWithTag("grandma").GetComponent<grandma>().XSpeed;
         offset += (Time.deltaTime * scrollSpeed) / 10f;
         mat.SetTextureOffset("_MainTex", new Vector2(offset, 0));
     }
