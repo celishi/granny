@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TileDestroy : MonoBehaviour
 {
-    private float lifetime = 20;
+    private float lifetime = 40;
 
     private void Start()
     {
