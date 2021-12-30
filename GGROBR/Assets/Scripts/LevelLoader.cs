@@ -18,10 +18,10 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextScene()
     {
-        StartCoroutine((string)LoadLevel());        
+        StartCoroutine(LoadLevel());        
     }
 
-    IEnumerable LoadLevel()
+    IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start"); //play animation
 
