@@ -9,25 +9,25 @@ public class Spawner : MonoBehaviour
     public int DistancePerTile; //Distance Traveled Necessary to Instantiate new Tile
     public List<GameObject> TilesOfObstacles; //List of Obstacle Tiles
     private int PreviousModResult = -1; //Used to Check if New Tile Is Needed
-    private List<int> ListOfChoices = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 }; //List of Valid Choices, number of tiles, TBD 
+    private List<int> ListOfChoices = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; //List of Valid Choices, number of tiles, TBD 
     private List<int> ListOnCD = new List<int> { }; //List of Tiles on Cooldown
     private int ThresholdCounter = 0;
-    private int Threshold1 = 10000;
-    private int Threshold2 = 10000;
-    private int Threshold3 = 10000;
+    private int Threshold1 = 100;
+    private int Threshold2 = 150;
+    private int Threshold3 = 200;
     // Start is called before the first frame update
     void Start()
     {
         int i = 0;
         int remove;
-        while (i < 3)
+        while (i < 4)
         {
-            remove = Random.Range(1, ListOfChoices.Count-1);
+            remove = Random.Range(0, ListOfChoices.Count-i);
             ListOnCD.Add(remove);
             ListOfChoices.Remove(remove);
             i++;
         }
-        remove = ListOfChoices[Random.Range(1, ListOfChoices.Count-1)];
+        remove = ListOfChoices[Random.Range(0, ListOfChoices.Count-4)];
         Instantiate(TilesOfObstacles[ListOfChoices[remove]], SpawnPoint.transform.position, Quaternion.identity);
         ListOnCD.Add(remove);
         ListOfChoices.Remove(remove);
@@ -41,54 +41,29 @@ public class Spawner : MonoBehaviour
 
         if (PlayerDistance > Threshold1 && ThresholdCounter < 1) 
         {
-            ListOfChoices.Add(1);
-            ListOfChoices.Add(2);
-            ListOfChoices.Add(3); //Placeholders
-            ListOfChoices.Remove(1);
-            ListOfChoices.Remove(2);
-            ListOfChoices.Remove(3);
-            ListOnCD.Add(1);
-            ListOnCD.Add(2);
-            ListOnCD.Add(3); //Placeholders
-            ListOnCD.Remove(1);
-            ListOnCD.Remove(2);
-            ListOnCD.Remove(3);
+            ListOfChoices.Add(19);
+            ListOfChoices.Add(13);
+            ListOfChoices.Add(17);
+            ListOfChoices.Add(14);
+            ListOfChoices.Add(20);
             ThresholdCounter++;
         }
-        if (PlayerDistance > Threshold2 && ThresholdCounter < 2)
+        else if (PlayerDistance > Threshold2 && ThresholdCounter < 2)
         {
-            ListOfChoices.Add(1);
-            ListOfChoices.Add(2);
-            ListOfChoices.Add(3); //Placeholders
-            ListOfChoices.Remove(1);
-            ListOfChoices.Remove(2);
-            ListOfChoices.Remove(3);
-            ListOnCD.Add(1);
-            ListOnCD.Add(2);
-            ListOnCD.Add(3); //Placeholders
-            ListOnCD.Remove(1);
-            ListOnCD.Remove(2);
-            ListOnCD.Remove(3);
+            ListOfChoices.Add(12);
+            ListOfChoices.Add(10);
+            ListOfChoices.Add(11);
             ThresholdCounter++;
         }
-        if (PlayerDistance > Threshold3 && ThresholdCounter < 3)
+        else if (PlayerDistance > Threshold3 && ThresholdCounter < 3)
         {
-            ListOfChoices.Add(1);
-            ListOfChoices.Add(2);
-            ListOfChoices.Add(3); //Placeholders
-            ListOfChoices.Remove(1);
-            ListOfChoices.Remove(2);
-            ListOfChoices.Remove(3);
-            ListOnCD.Add(1);
-            ListOnCD.Add(2);
-            ListOnCD.Add(3); //Placeholders
-            ListOnCD.Remove(1);
-            ListOnCD.Remove(2);
-            ListOnCD.Remove(3);
+            ListOfChoices.Add(15);
+            ListOfChoices.Add(16);
+            ListOfChoices.Add(18);
             ThresholdCounter++;
         }
 
-        int ChoiceOfSpawn = ListOfChoices[Random.Range(1, ListOfChoices.Count-1)]; //Chooses a Random Tile to Spawn
+        int ChoiceOfSpawn = ListOfChoices[Random.Range(0, ListOfChoices.Count-5)]; //Chooses a Random Tile to Spawn
 
         if (PlayerDistance % DistancePerTile < PreviousModResult) //Checks if Player Has Passed Threshold to Spawn New Tile by Checking if Player Has JUST Passed Threshold
         {

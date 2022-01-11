@@ -6,6 +6,7 @@ public class ConditionalCollider : MonoBehaviour
 {
     public int damage;
     public float speed;
+    public GameObject Emitter;
 
     void Start()
     {
@@ -34,7 +35,8 @@ public class ConditionalCollider : MonoBehaviour
         if (other.CompareTag("grandma") && other.GetComponent<grandma>().jumping != true)
         {
             other.GetComponent<grandma>().health -= damage;
-            Debug.Log(other.GetComponent<grandma>().health);
+            GameObject.FindWithTag("audio").GetComponent<AudioSourceCrash>().crash = true;
+            Instantiate(Emitter, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

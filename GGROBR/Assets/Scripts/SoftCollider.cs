@@ -5,6 +5,7 @@ using UnityEngine;
 public class SoftCollider : MonoBehaviour
 {
     public float speed;
+    public GameObject Emitter;
 
     void Start()
     {
@@ -33,6 +34,8 @@ public class SoftCollider : MonoBehaviour
         if (other.CompareTag("grandma"))
         {
             other.GetComponent<grandma>().slowed = true;
+            GameObject.FindWithTag("audio").GetComponent<AudioSourceCrash>().crash = true;
+            Instantiate(Emitter, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

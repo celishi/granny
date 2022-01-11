@@ -8,6 +8,7 @@ public class SmashingCollider : MonoBehaviour
     public int damage;
     public float speed;
     private bool sameyasgrandma;
+    public GameObject Emitter;
 
     void Start()
     {
@@ -27,15 +28,15 @@ public class SmashingCollider : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (transform.position.y > 1 && grandma.position.y == 2)
+        if (transform.position.y > 1 && grandma.position.y > 1)
         {
             sameyasgrandma = true;
         }
-        else if (1 > transform.position.y && transform.position.y > -1 && grandma.position.y == 0)
+        else if (1 > transform.position.y && transform.position.y > -1 && grandma.position.y < 1 && grandma.position.y > -1)
         {
             sameyasgrandma = true;
         }
-        else if (transform.position.y < -1 && grandma.position.y == -2)
+        else if (transform.position.y < -1 && grandma.position.y < -1)
         {
             sameyasgrandma = true;
         }
@@ -45,18 +46,27 @@ public class SmashingCollider : MonoBehaviour
         }
         speed = GameObject.FindWithTag("grandma").GetComponent<grandma>().XSpeed;
         transform.Translate(Vector2.left * speed * Time.deltaTime);
-        if (GameObject.FindWithTag("grandma").GetComponent<grandma>().smashing == true && transform.position.x <= -4 && transform.position.x >= -6 && sameyasgrandma == true) 
+        if (GameObject.FindWithTag("grandma").GetComponent<grandma>().smashing == true && transform.position.x <= -3.5 && transform.position.x >= -6 && sameyasgrandma == true) 
         {
+            GameObject.FindWithTag("audio").GetComponent<AudioSourceCrash>().crash = true;
+            Instantiate(Emitter, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("grandma") && other.GetComponent<grandma>().jumping != true)
+        if (other.CompareTag("grandma") && other.GetComponent<grandma>().smashing != true)
         {
             other.GetComponent<grandma>().health -= damage;
-            Debug.Log(other.GetComponent<grandma>().health);
+            GameObject.FindWithTag("audio").GetComponent<AudioSourceCrash>().crash = true;
+            Instantiate(Emitter, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+        else if (other.CompareTag("grandma")) 
+        {
+            GameObject.FindWithTag("audio").GetComponent<AudioSourceCrash>().crash = true;
+            Instantiate(Emitter, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
