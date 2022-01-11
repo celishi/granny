@@ -30,7 +30,7 @@ public class grandma : MonoBehaviour
     public int hit;
     public float SpeedDecrease;
     private float SpeedPlaceholder = 0;
-    private int NewDistance;
+    public int NewDistance;
 
     public Text healthDisplay;
     public Text scoreDisplay;

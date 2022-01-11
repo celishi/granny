@@ -124,3 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   speed: 0
+  Emitter: {fileID: 3987116464281811141, guid: 06dd26a458a85754d9b03a1ef7a23efd, type: 3}

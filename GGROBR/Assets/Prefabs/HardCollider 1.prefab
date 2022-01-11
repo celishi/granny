@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   speed: 0
+  Emitter: {fileID: 3987116464281811141, guid: ad9cd24f6f229ae4cb9b599817b73971, type: 3}
 --- !u!61 &558402425746367410
 BoxCollider2D:
   m_ObjectHideFlags: 0

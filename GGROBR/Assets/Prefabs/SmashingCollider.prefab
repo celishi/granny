@@ -125,3 +125,4 @@ MonoBehaviour:
   grandma: {fileID: 6772426554821309504, guid: ae8ef29fda0df1f4db95577d413b1efc, type: 3}
   damage: 1
   speed: 0
+  Emitter: {fileID: 3987116464281811141, guid: 30b9d2bc965de394d9f43731dae3a187, type: 3}
